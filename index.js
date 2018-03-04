@@ -2,6 +2,10 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-function whisper(strong) {
+function whisper(string) {
   return strong.toLowerCase()
+}
+
+function logShout(string) {
+  console.log(shout(string))
 }
